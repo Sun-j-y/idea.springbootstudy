@@ -1,0 +1,10 @@
+spring:
+  thymeleaf:
+    encoding: UTF-8
+  mail:
+    default-encoding: UTF-8
+    username: sforits
+    password: AVIGHTZYNSINDXZX
+    properties:
+      from: sforits@163.com
+
