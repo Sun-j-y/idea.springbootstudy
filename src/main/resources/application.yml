@@ -3,8 +3,14 @@ spring:
     encoding: UTF-8
   mail:
     default-encoding: UTF-8
-    username: sforits
+    username: sforits@163.com
     password: AVIGHTZYNSINDXZX
-    properties:
-      from: sforits@163.com
+    host: smtp.163.com
+
+
+logging:
+  level:
+    root: info
+  # 日志输出的渲染格式 logging.pattern.console: "%d{yyyy-MM-dd HH:mm:ss:SSS} %highlight(%.5p) %5L [%t] %green(%c) %m%n"
+
 
